@@ -1,1 +1,2 @@
 # IntakaIslandApp
+IntakaIslandApp is an app that is aimed at enhancing one's visit to Intaka Island Nature Reserve, which is home to 120+ bird species and 320+ plant species. While the reserve boasts a large number of plant and bird species, the information is not easily accessible to the average visitor, an A4 sized is all they get with information about the major species only. The app has information about all species at the reserve, a map of the island. 

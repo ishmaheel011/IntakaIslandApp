@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapActivity"
+    >
+    <include layout="@layout/toolbar"
+        android:id="@+id/materialToolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"/>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/maps"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/materialToolbar"
+        android:layout_above="@+id/bottomNavigationView"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+    <ImageButton
+        android:id="@+id/btnFixZoom"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_above="@+id/bottomNavigationView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/baseline_circle_24"
+        android:backgroundTint="@color/white"
+        android:contentDescription="capture picture"
+        android:scaleType="center"
+        android:src="@drawable/baseline_zoom_out_24"
+        android:textAlignment="textEnd"
+        app:tint="#000"
+
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <include layout = "@layout/navbar"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

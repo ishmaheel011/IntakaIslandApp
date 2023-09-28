@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "324491937576",
+    "project_id": "icnature-80bbb",
+    "storage_bucket": "icnature-80bbb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324491937576:android:e0cc390a17c15762cd321d",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324491937576-i1t46f6e4usu3jhkjtc48v77a8okrko5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3a1rNtnr_JF_EvuaYqIumubF5FNHOUEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "324491937576-i1t46f6e4usu3jhkjtc48v77a8okrko5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

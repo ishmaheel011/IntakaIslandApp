@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <include layout="@layout/menuless_toolbar"
+        android:id="@+id/materialToolbar"/>
+        <include layout="@layout/backbutton"/>
+
+
+    <TextView
+        android:id="@+id/imageSettingHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/imageSettingHeader"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imageSettingLayout"
+        app:layout_constraintTop_toBottomOf="@+id/materialToolbar"/>
+
+    <LinearLayout
+        android:id="@+id/imageSettingLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageSettingHeader"
+        tools:layout_editor_absoluteX="16dp">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:paddingLeft="20dp"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:paddingVertical="12sp"
+            android:text="@string/autoSaveImage"/>
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_weight="4"
+            android:layout_height="match_parent"
+            android:id="@+id/autoSaveSwitch"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textToSpeechHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/ttsHeader"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageSettingLayout" />
+
+    <LinearLayout
+        android:padding="10dp"
+        android:id="@+id/ttsSettingsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textToSpeechHeader">
+
+        <TextView
+            android:id="@+id/speechRateLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:paddingLeft="10dp"
+            android:text="@string/speechRateSetting" />
+
+        <SeekBar
+            android:id="@+id/speechRateSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/speechRateLabel"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:textSize="16dp"
+                android:text="@string/slowrate" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:text="@string/normalrate" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingRight="20dp"
+                android:textSize="16dp"
+                android:text="@string/fastrate" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnClearData"
+            android:textSize="20dp"
+            android:backgroundTint="@color/grey"
+            android:textColor="@color/cardview_dark_background"
+            android:text="@string/ClearData" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

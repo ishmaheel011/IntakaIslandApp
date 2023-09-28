@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/black"
+    tools:context=".scanPreview">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="@string/preview"
+        android:id="@+id/toolbar"
+        android:background="@color/white"
+        app:titleCentered="true"/>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:padding="12dp"
+        android:progressTint="@color/black"
+        android:layout_alignTop="@id/toolbar"
+        android:layout_alignBottom="@id/toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/btnSaveImage"
+        android:layout_width="30sp"
+        android:layout_height="35sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="14dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/download"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imagePreview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/toolbar"
+        android:layout_marginStart="0dp"
+        android:layout_alignBottom="@+id/btnDiscard"
+        android:scaleType="fitCenter"  />
+
+
+    <ImageButton
+        android:id="@+id/btnDiscard"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="75dp"
+        android:background="@null"
+        android:contentDescription="capture picture"
+        android:scaleType="fitXY"
+        android:src="@drawable/baseline_refresh_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/btnScan"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="75dp"
+        android:background="@null"
+        android:contentDescription="capture picture"
+        android:scaleType="fitXY"
+        android:src="@drawable/baseline_done_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+</RelativeLayout>

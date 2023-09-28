@@ -1,0 +1,15 @@
+Site name, latitude, longitude
+Lapa,-33.888554, 18.516289
+Viewing Platform 1,-33.887941, 18.514631
+Viewing Platform 2,-33.888388, 18.515177
+Viewing Platform 3,-33.887556, 18.515015
+Viewing Platform 4,-33.886216, 18.517485
+Viewing Platform 5,-33.888382, 18.517033
+Viewing Platform 6,-33.889277, 18.514661
+Viewing Platform 7,-33.889188, 18.513066
+Bird Mountain,-33.888890, 18.516713
+Kingfisher Bird Hide,-33.889733, 18.515006
+Heron Bird Hide,-33.889790, 18.515229
+Educational Garden,-33.888479, 18.516096
+Heronry,-33.889555, 18.515409
+Dipping Pond,-33.888951, 18.516116

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ImageButton
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/backButton"
+    android:layout_marginHorizontal="0dp"
+    android:padding="12dp"
+    android:background="@null"
+    android:layout_marginTop="8dp"
+    android:contentDescription="@string/back"
+    android:src="@drawable/baseline_arrow_back_24"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"/>

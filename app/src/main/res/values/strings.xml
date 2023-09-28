@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Intaka Island</string>
+    <string name="search_by_text">Search</string>
+    <string name="search_by_image">Camera</string>
+    <string name="maps">Map</string>
+    <string name="return_home">Return to the home screen</string>
+    <string name="settings">Settings</string>
+    <string name="source">SOURCE: CHATGPT</string>
+    <string name="help">Help</string>
+    <string name="aboutUs">About Us</string>
+    <string name="searchBarText">Search...</string>
+    <string name="home">Home</string>
+    <string name="back">Return to the previous screen</string>
+    <string name="info">Information</string>
+    <string name="bird_of_the_day">Bird Of The Day</string>
+    <string name="bannerSpecies">Bird Species</string>
+    <string name="indigenous_plant_species">Indigenous Plant Species</string>
+    <string name="habitats">Different Habitats</string>
+    <string name="wetlands">Hectares of Wetlands</string>
+    <string name="bird_of_the_day_description">The tree swallow (Tachycineta bicolor) is a migratory bird of the family Hirundinidae. Found in the Americas, the tree swallow was first described in 1807 by French ornithologist Louis Vieillot as Hirundo bicolor. The tree swallow has glossy blue-green upperparts, with the exception of the blackish wings and tail, and white underparts. The female is generally duller than the male, and the first-year female has mostly brown upperparts, with some blue feathers. The tree swallow breeds in the US and Canada. It winters along southern US coasts south, along the Gulf Coast, to Panama and the northwestern coast of South America.</string>
+    <string name="bird_of_the_day_name">Tree Swallow</string>
+    <string name="scan">Scan</string>
+    <string name="ClearData">Clear App Data</string>
+    <string name="bird">bird</string>
+    <string name="plant">plant</string>
+    <string name="preview">Preview</string>
+    <string name="imageSettingHeader">Image Capture</string>
+    <string name="autoSaveImage">Auto Save Captured Image</string>
+    <string name="ttsHeader">Text-To-Speech</string>
+    <string name="speechRateSetting">Speech Rate</string>
+    <string name="slowrate">Slow</string>
+    <string name="normalrate">Normal</string>
+    <string name="fastrate">Fast</string>
+
+    <string name="error">ERROR</string>
+
+    <string name="plant_file">IntakaPlants.txt</string>
+    <string name="bird_file">IntakaBirds.txt</string>
+
+    <string name="descriptionTest">
+    Birds are warm-blooded vertebrates characterized by feathers, beaks, and the ability to fly (though not all birds can). With diverse species inhabiting nearly every environment on Earth, birds display a remarkable range of sizes, colors, and behaviors. They play essential roles in ecosystems, including pollination and insect control.
+    </string>
+    <string name="siteBtnDescription">location icon</string>
+    <string name="intakaMapDescription">Map of Intaka Nature Reserve</string>
+    <string name="api_key">AIzaSyDf0S1Fllu4VZqKRqTGJ4p1j24EUKqgMpM</string>
+
+    <string name="azure_api_key">cec6615e41084957956e0ebb5e10ba82</string>
+    <string name="visual_search_api_endpoint">https://api.bing.microsoft.com/v7.0/images/visualsearch</string>
+
+    <string name="helpPrompt">For information on the different aspects of this application, please read the feature overview cards provided below:</string>
+    <string name="homeHelp">The Home screen provides an introduction to this application. The page consists of various scrollable cards that serve to enhance the user experience.\n\nThese cards cannot be interacted with, but nonetheless provide: images of various species and sites in and around the park, park information, a unique bird of the day, and further tips on how to best utilize the application. </string>
+    <string name="ttsHelp">The Text-To-Speech feature, available on the Detailed Species View page, converts the information provided about a particular species into audio. The feature can be initiated by pressing the \"Play\" button at the bottom of the screen and can be terminated by pressing the same button when it is in its \"Stop\" form or by pressing the \"Back\" or \"Home\" buttons in the top left corner of the screen.\n\nThe feature also highlights the text that is currently being read aloud (in red) to make it easier for one to read along.</string>
+    <string name="mapHelp">The map has 17 red markers, representing major sites in the reserve, you can click on them to view more information about each spot. The map is bounded within a few kilometers and centered at Intaka Island.\n\nIf the device is within the bounds of the map, its location will be showed by a circular blue marker: provided the GPS is on and the device has bandwidth and service. If the device location is not showing it means either: you have no bandwidth and/or service, you have not allowed your location to be used by the app, you are not within the bounds of the map, or you started the map and turned on GPS after (if such is the case wait a few seconds for your location show up).\n\nThe custom bird and plant markers added by the user are shown by black circles, when you click on them, the date and name is shown. If you have zoomed in or out too much and want to go back to normal view, there is a button in the top left of the screen that can be pressed to return to the default zoom level.</string>
+    <string name="settingsHelp">You can use the Settings screen to customise certain aspects of the application. This includes: having pictures taken in-app be saved to your gallery automatically and changing the speed of the text-to-speech audio. If you are in need of extra storage space, but want to keep the app installed there is also a button that allows you to clear the app\'s saved data.</string>
+    <string name="searchHelp">The Search screen presents the names, and images, of each of the many bird and plant species that reside at Intaka Island. These can be scrolled through manually or searched for, specifically, using the provided search bar. Species can be searched for by their name or by their colour.\n\nAny search term entered can be removed by pressing the "Clear" button on the right side of the search bar -- which returns the page to its initial state. If you wish to learn more information about a specific species, just tap on its associated card.</string>
+    <string name="scanHelp">The Scan screen allows you to recognise a bird or plant species at Intaka Island: using just a single photo. This photo can be: taken in-app by pressing the white "Camera" button, or selected from your photo library by pressing the "Gallery" icon and selecting a previously taken photo.\n\nMake sure that the photo of the species is clear, in-focus, and the subject is contained entirely within the frame of the image for the best results. Thereafter, you can choose to retake the photo using the "Reset" button or perform the image recognition process by pressing the "Confirm" button. Once confirmed, the image will be processed and detailed information about the recognised species will be displayed. Regrettably, this feature will not work without a reasonably strong internet connection.</string>
+
+    <string name="aboutUsDescription">Welcome to the Intaka Island App! We are a small but dedicated team of three, committed to enhancing your experience at the Intaka Island reserve.\n\nOur mission is to create an educational app that not only complements but also enhances your in-person experience at the reserve. We believe in the power of technology to make learning fun, engaging, and accessible for everyone.\n\nWhile we may be small in number, we are big on passion. Each member of our team brings a unique set of skills and experiences that make this project possible. Together, we are working tirelessly to bring you an app that is both informative and enjoyable.\n\nThis app was created by:\n• Ariel Levy,\n  (email: LVYARI002@myuct.ac.za)\n• Kgosi Ntlakana \&amp;\n  (email: NTLKGO002@myuct.ac.za)\n• Siphe Ndzongana\n  (email: NDZSIP015@myuct.ac.za)\nof the University of Cape Town\'s Computer Science Department.</string>
+</resources>

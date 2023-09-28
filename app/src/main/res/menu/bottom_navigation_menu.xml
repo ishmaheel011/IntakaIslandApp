@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeItem"
+        android:enabled="true"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/home"
+        />
+    <item
+        android:id="@+id/cameraItem"
+        android:enabled="true"
+        android:icon="@drawable/baseline_photo_camera_24"
+        android:title="@string/scan"
+        />
+    <item
+        android:id="@+id/mapItem"
+        android:enabled="true"
+        android:icon="@drawable/baseline_location_on_24"
+        android:title="@string/maps"
+        />
+    <item
+        android:id="@+id/searchItem"
+        android:enabled="true"
+        android:icon="@drawable/baseline_search_24"
+        android:title="@string/search_by_text"
+        />
+
+</menu>
